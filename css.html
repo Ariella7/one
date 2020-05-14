@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ariella's</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ariella's</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        메뉴
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Ariella's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">오늘의 하루</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/css-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Ariella's CSS 기초</h1>
+            <h2 class="subheading">CSS에 대해서 알아보자</h2>
+            <span class="meta">Posted by
+              <a href="#">Ariella's</a>
+              일상 이야기</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <h2 class="section-heading">주석</h2> <u>!-- ~~~내용~~~ --</u>를 사용하게 되면 웹브라우저가 내용을 인식하지 못한다.
+
+          <h2 class="section-heading">;(=세미콜론)</h2> 시작하고 끝나는 지점을 구분하기 위해 사용한다.
+
+          <h2 class="section-heading">style</h2> css틀의 기본
+
+          <h2 class="section-heading">글씨 크기</h2> 예시) font-size: 250%; / font-size:60px;(px=픽셀)
+
+          <h2 class="section-heading">가운데/왼쪽/오른쪽 정렬</h2> 예시) text-align:center;/ text-align:left;/ text-align:right;
+
+          <h2 class="section-heading">테두리</h2> 예시) border-width:5px; - 두께 <br> border-style: solid; - solid 단선/ 실선/ 점선
+
+          <h2 class="section-heading">상자(컨텐츠) 안의 여백</h2> 예시) padding:20px;
+
+          <h2 class="section-heading">상자와 상자의 여백</h2> 예시) margin:0;
+
+          <h2 class="section-heading">block(tag,컨텐츠) 크기 변경(width=폭, height:높이)</h2> 예시) width:100px;
+
+          <h2 class="section-heading">태그나 클래스가 아니라 디자인만을 목적으로 사용하는 언어</h2> 1. div - 화면전체
+          2. span - 자신크기만큼 사용
+
+          <h2 class="section-heading">*선택자</h2>* class가 여러개인 것 보다 ID로 넣어주는게 더 좋다.<br>
+          ** 동일한 level 일 때는 나중에 쓴 선택자가 우선
+          = 마지막 선택자가 우선순위가 된다.(제일 영향력이 세다=우선적용된다.)<br>
+          *** 다른 level 일 때는 id > class > tag 순<br>
+          **** id는 해당 문서에서 한번밖에 사용할 수 없음, id의 값도 중복되서는 안된다.
+
+          <h2 class="section-heading">grid </h2> 박스를 나눠주는 기술.
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Ariella's &copy; 일상</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
